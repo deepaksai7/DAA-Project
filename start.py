@@ -109,6 +109,7 @@ def set_var():
         sol.append(keyss[int(solution[i])])
 
 
+
     t=t*60
 
     t = float("{0:.2f}".format(t))
@@ -126,19 +127,7 @@ def set_var():
     l12=Label(root,text="minutes")
     l12.place(x=180,y=390)
 
-
-
-
-
-
-
-
-
-
-
-
-
-#buttons
+         #buttons
 b1=Button(root,text="Go",command=set_var)
 b1.place(x=215,y=250)
 
